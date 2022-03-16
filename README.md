@@ -1,3 +1,5 @@
+local QBCore = exports['qb-core']:GetCoreObject()
+
 # Client Side
 
 esx:onPlayerDeath -> hospital:server:SetDeathStatus
