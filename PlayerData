@@ -1,9 +1,8 @@
 # PlayerData
 
-```Client side:
+Client side:
 local xPlayer = QBCore.Functions.GetPlayerData() 
 local citizenid = xPlayer.citizenid  -- Without PlayerData, it's fetched by default
-```
 
 Server Side:
 local xPlayer = QBCore.Functions.GetPlayer(source) 
